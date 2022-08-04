@@ -1,0 +1,33 @@
+body{
+    box-sizing: border-box;
+    /* margin: 0px; */
+}
+.myDivClass{
+    display: flex;
+    flex-flow:column;
+    background-color: fuchsia;
+    height: 350px;
+    width: 900px;
+}
+.myDivClass > .div1 , .div2 {
+    display: flex;
+   
+}
+/* .imgClassA{
+    align-self:flex-end;
+    
+} */
+
+
+.imgClass{
+    align-self:flex-end;
+    
+}
+
+
+.imgClassBoat{
+    align-self:flex-end;
+    margin-bottom: -30px;
+    z-index: 1; 
+    
+}
